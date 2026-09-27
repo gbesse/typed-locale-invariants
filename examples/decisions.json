@@ -1,0 +1,10 @@
+{
+  "max_probability_drift": 0.15,
+  "groups": [
+    {"id":"refund-decision","variants":[
+      {"locale":"fr","text":"Rembourser la commande annulée ?","option_ids":["refund","deny"],"choice":"refund","probability":0.91},
+      {"locale":"en","text":"Refund the cancelled order?","option_ids":["deny","refund"],"choice":"refund","probability":0.88},
+      {"locale":"es","text":"¿Reembolsar el pedido cancelado?","option_ids":["refund","deny"],"choice":"deny","probability":0.75}
+    ]}
+  ]
+}
